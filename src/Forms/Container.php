@@ -115,7 +115,7 @@ class Container extends Nette\ComponentModel\Container implements \ArrayAccess
 	 * Is form valid?
 	 * @return bool
 	 */
-	public function isValid()
+    public function isValid()
 	{
 		if (!$this->validated) {
 			if ($this->getErrors()) {
